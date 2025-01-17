@@ -7,15 +7,16 @@
 
 import UIKit
 
-public class LoginManager {
+public actor LoginManager {
     public static let shared = LoginManager()
 
     // Private initializer to enforce singleton usage
     private init() {}
 
     // Method to present the LoginViewController
-    public func presentLogin(from viewController: UIViewController, completion: (() -> Void)? = nil) {
+    @MainActor
+    public func presentLogin(from viewController: UIViewController) {
         let loginVC = LoginVC()
-        viewController.present(loginVC, animated: true, completion: completion)
+        viewController.present(loginVC, animated: true, completion: nil)
     }
 }
