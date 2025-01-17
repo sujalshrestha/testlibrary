@@ -16,13 +16,15 @@ let package = Package(
         ),
     ],
     dependencies: [
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.6.4"),
+        .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", from: "4.2.2")
         // Add external package dependencies here, if any.
     ],
     targets: [
         // Define the main target for the library.
         .target(
             name: "TestLibrary",
-            dependencies: [], // Add dependencies for this target, if any.
+            dependencies: ["Alamofire", "KeychainAccess"], // Add dependencies for this target, if any.
             path: "TestLibrary/Sources/TestLibrary", // Specify the source files location
             exclude: [], // List files to exclude, if any.
             resources: [
