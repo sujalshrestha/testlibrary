@@ -13,6 +13,9 @@
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		04A3B0E12D3A334100CB95BD /* Exceptions for "TestLibrary" folder in "TestLibrary" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/ISNetwork,
+			);
 			publicHeaders = (
 				TestLibrary.h,
 			);

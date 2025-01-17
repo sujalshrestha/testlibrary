@@ -1,0 +1,223 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "abseil",
+        "repositoryURL": "https://github.com/google/abseil-cpp-binary.git",
+        "state": {
+          "branch": null,
+          "revision": "194a6706acbd25e4ef639bcaddea16e8758a3e27",
+          "version": "1.2024011602.0"
+        }
+      },
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "78424be314842833c04bc3bef5b72e85fff99204",
+          "version": "5.6.4"
+        }
+      },
+      {
+        "package": "AppCheck",
+        "repositoryURL": "https://github.com/google/app-check.git",
+        "state": {
+          "branch": null,
+          "revision": "3b62f154d00019ae29a71e9738800bb6f18b236d",
+          "version": "10.19.2"
+        }
+      },
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk?fbclid=IwZXh0bgNhZW0CMTAAAR37wSl23onosw5yD4phCpLGhNnyiSYBvrPXeFUPePQnKibC12zWfM8xnlo_aem_j4w49iQDdHI-CkPuiT__mQ",
+        "state": {
+          "branch": null,
+          "revision": "619d1772808425faa010d92293b26eeb9bc1d630",
+          "version": "17.4.0"
+        }
+      },
+      {
+        "package": "Fastis",
+        "repositoryURL": "https://github.com/simla-tech/Fastis.git",
+        "state": {
+          "branch": null,
+          "revision": "3cf7095765443b185f6b8150759a38ddc79739e2",
+          "version": "2.3.0"
+        }
+      },
+      {
+        "package": "Firebase",
+        "repositoryURL": "https://github.com/firebase/firebase-ios-sdk.git",
+        "state": {
+          "branch": null,
+          "revision": "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+          "version": "10.29.0"
+        }
+      },
+      {
+        "package": "GoogleAppMeasurement",
+        "repositoryURL": "https://github.com/google/GoogleAppMeasurement.git",
+        "state": {
+          "branch": null,
+          "revision": "fe727587518729046fc1465625b9afd80b5ab361",
+          "version": "10.28.0"
+        }
+      },
+      {
+        "package": "GoogleDataTransport",
+        "repositoryURL": "https://github.com/google/GoogleDataTransport.git",
+        "state": {
+          "branch": null,
+          "revision": "a637d318ae7ae246b02d7305121275bc75ed5565",
+          "version": "9.4.0"
+        }
+      },
+      {
+        "package": "GoogleUtilities",
+        "repositoryURL": "https://github.com/google/GoogleUtilities.git",
+        "state": {
+          "branch": null,
+          "revision": "57a1d307f42df690fdef2637f3e5b776da02aad6",
+          "version": "7.13.3"
+        }
+      },
+      {
+        "package": "gRPC",
+        "repositoryURL": "https://github.com/google/grpc-binary.git",
+        "state": {
+          "branch": null,
+          "revision": "e9fad491d0673bdda7063a0341fb6b47a30c5359",
+          "version": "1.62.2"
+        }
+      },
+      {
+        "package": "GTMSessionFetcher",
+        "repositoryURL": "https://github.com/google/gtm-session-fetcher.git",
+        "state": {
+          "branch": null,
+          "revision": "a2ab612cb980066ee56d90d60d8462992c07f24b",
+          "version": "3.5.0"
+        }
+      },
+      {
+        "package": "InteropForGoogle",
+        "repositoryURL": "https://github.com/google/interop-ios-for-google-sdks.git",
+        "state": {
+          "branch": null,
+          "revision": "2d12673670417654f08f5f90fdd62926dc3a2648",
+          "version": "100.0.0"
+        }
+      },
+      {
+        "package": "IQKeyboardCore",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardCore.git",
+        "state": {
+          "branch": null,
+          "revision": "3959266e4b064259d798df942e61037d12415a33",
+          "version": "1.0.6"
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": "master",
+          "revision": "098d93b8d33c9ad1e9302b0367275d2321a4f7c7",
+          "version": null
+        }
+      },
+      {
+        "package": "IQKeyboardNotification",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardNotification.git",
+        "state": {
+          "branch": null,
+          "revision": "7d225c8e93f6072ae6ae0dbe774fe8d2f4a21255",
+          "version": "1.0.4"
+        }
+      },
+      {
+        "package": "IQTextInputViewNotification",
+        "repositoryURL": "https://github.com/hackiftekhar/IQTextInputViewNotification.git",
+        "state": {
+          "branch": null,
+          "revision": "0d274f3900c2257e39b37561a0486120813fd43b",
+          "version": "1.0.6"
+        }
+      },
+      {
+        "package": "JTAppleCalendar",
+        "repositoryURL": "https://github.com/patchthecode/JTAppleCalendar",
+        "state": {
+          "branch": null,
+          "revision": "718f0ab68ba0fcd2bc134f6e9d30edc1b9b038e1",
+          "version": "8.0.5"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess.git",
+        "state": {
+          "branch": null,
+          "revision": "84e546727d66f1adc5439debad16270d0fdd04e7",
+          "version": "4.2.2"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": "master",
+          "revision": "550c2feff1593f7cfe13242faa58d2efbb9280b5",
+          "version": null
+        }
+      },
+      {
+        "package": "leveldb",
+        "repositoryURL": "https://github.com/firebase/leveldb.git",
+        "state": {
+          "branch": null,
+          "revision": "a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+          "version": "1.22.5"
+        }
+      },
+      {
+        "package": "nanopb",
+        "repositoryURL": "https://github.com/firebase/nanopb.git",
+        "state": {
+          "branch": null,
+          "revision": "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+          "version": "2.30910.0"
+        }
+      },
+      {
+        "package": "PrettyCards",
+        "repositoryURL": "https://github.com/ilia3546/PrettyCards",
+        "state": {
+          "branch": null,
+          "revision": "3115edbd79c66090729dfb261dc4fbf7c6df0ac1",
+          "version": "1.0.7"
+        }
+      },
+      {
+        "package": "Promises",
+        "repositoryURL": "https://github.com/google/promises.git",
+        "state": {
+          "branch": null,
+          "revision": "540318ecedd63d883069ae7f1ed811a2df00b6ac",
+          "version": "2.4.0"
+        }
+      },
+      {
+        "package": "SwiftProtobuf",
+        "repositoryURL": "https://github.com/apple/swift-protobuf.git",
+        "state": {
+          "branch": null,
+          "revision": "edb6ed4919f7756157fe02f2552b7e3850a538e5",
+          "version": "1.28.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

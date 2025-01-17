@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "TestLibrary",
             dependencies: [], // Add dependencies for this target, if any.
-            path: "Sources/TestLibrary", // Specify the source files location
+            path: "TestLibrary/Sources/TestLibrary", // Specify the source files location
             exclude: [], // List files to exclude, if any.
             resources: [
 //                .process("Resources") // Include resource files like images, XIBs, etc.
