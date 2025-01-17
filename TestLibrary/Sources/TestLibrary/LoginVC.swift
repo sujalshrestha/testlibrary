@@ -6,7 +6,7 @@
 //
 
 import UIKit
-internal import ISNetwork
+import ISNetwork
 import Combine
 
 class LoginVC: UIViewController {

@@ -16,17 +16,21 @@ let package = Package(
         ),
     ],
     dependencies: [
+        .package(
+            name: "ISNetwork",
+            path: "./ISNetwork" // Adjust the path based on the location of ISNetwork relative to this package.
+        )
         // Add external package dependencies here, if any.
     ],
     targets: [
         // Define the main target for the library.
         .target(
             name: "TestLibrary",
-            dependencies: [], // Add dependencies for this target, if any.
+            dependencies: ["ISNetwork"], // Add dependencies for this target, if any.
             path: "TestLibrary/Sources/TestLibrary", // Specify the source files location
             exclude: [], // List files to exclude, if any.
             resources: [
-//                .process("Resources") // Include resource files like images, XIBs, etc.
+                //                .process("Resources") // Include resource files like images, XIBs, etc.
             ]
         ),
         // Define a test target for unit tests.
