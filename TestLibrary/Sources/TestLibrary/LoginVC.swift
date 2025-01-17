@@ -23,6 +23,7 @@ class LoginVC: UIViewController {
     
 }
 
+@MainActor
 public class LoginViewModel {
     var cancellable = [AnyCancellable]()
     let service = NetworkService()
@@ -32,19 +33,22 @@ public class LoginViewModel {
     
     let loginDataResponse = CurrentValueSubject<LoginDataResponse?, Never>(nil)
     
+    @MainActor
     func postLoginApi(email: String, password: String) {
         isLoading.send(true)
         let loginRequest = LoginParams(password: password, userId: email, fcmId: "asdasdasd", rememberMe: true)
         
         service.executeWithParams(urlRequest: LoginRouter.login, request: loginRequest, model: LoginResponse.self) { [weak self] result in
             guard let self = self else { return }
-            self.isLoading.send(false)
-            switch result {
-            case .success(let data):
-                print(data)
+            Task { @MainActor in
+                self.isLoading.send(false)
+                switch result {
+                case .success(let data):
+                    print(data)
 
-            case .failure(let error):
-                self.onApiError.send(error.message ?? "")
+                case .failure(let error):
+                    self.onApiError.send(error.message ?? "")
+                }
             }
         }
     }

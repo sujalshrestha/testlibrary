@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		04C7B1222D3A64E300279442 /* ISNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 04C7B1212D3A64E300279442 /* ISNetwork */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		04A3B0DA2D3A334100CB95BD /* TestLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -17,9 +13,6 @@
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		04A3B0E12D3A334100CB95BD /* Exceptions for "TestLibrary" folder in "TestLibrary" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Sources/ISNetwork,
-			);
 			publicHeaders = (
 				TestLibrary.h,
 			);
@@ -43,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C7B1222D3A64E300279442 /* ISNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +97,6 @@
 			);
 			name = TestLibrary;
 			packageProductDependencies = (
-				04C7B1212D3A64E300279442 /* ISNetwork */,
 			);
 			productName = TestLibrary;
 			productReference = 04A3B0DA2D3A334100CB95BD /* TestLibrary.framework */;
@@ -384,13 +375,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		04C7B1212D3A64E300279442 /* ISNetwork */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ISNetwork;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04A3B0D12D3A334100CB95BD /* Project object */;
 }
