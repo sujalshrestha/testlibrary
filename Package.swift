@@ -5,20 +5,35 @@ import PackageDescription
 
 let package = Package(
     name: "TestLibrary",
+    platforms: [
+        .iOS(.v14) // Define minimum supported iOS version
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
+        // The library product makes the package visible to other packages or apps.
         .library(
             name: "TestLibrary",
-            targets: ["TestLibrary"]),
+            targets: ["TestLibrary"]
+        ),
+    ],
+    dependencies: [
+        // Add external package dependencies here, if any.
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        // Define the main target for the library.
         .target(
-            name: "TestLibrary"),
+            name: "TestLibrary",
+            dependencies: [], // Add dependencies for this target, if any.
+            path: "Sources/TestLibrary", // Specify the source files location
+            exclude: [], // List files to exclude, if any.
+            resources: [
+//                .process("Resources") // Include resource files like images, XIBs, etc.
+            ]
+        ),
+        // Define a test target for unit tests.
         .testTarget(
             name: "TestLibraryTests",
-            dependencies: ["TestLibrary"]
+            dependencies: ["TestLibrary"],
+            path: "Tests/TestLibraryTests" // Specify the test files location.
         ),
     ]
 )
